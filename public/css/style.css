@@ -1,0 +1,12 @@
+#sidebar {
+    height: 100%;
+    border-radius: 6px;
+}
+
+.sidebar-header {
+    padding: 20px;
+}
+
+.sidebar-content {
+    padding: 20px;
+}

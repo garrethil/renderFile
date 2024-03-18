@@ -1,5 +1,5 @@
-DROP DATABASE IF EXISTS tech_db;
+DROP DATABASE IF EXISTS render_db;
 
-CREATE DATABASE tech_db;
+CREATE DATABASE render_db;
 
-USE tech_db;
+USE render_db;

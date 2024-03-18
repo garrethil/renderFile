@@ -4,6 +4,14 @@ const { User, Post } = require('../models');
 // GET all posts
 router.get('/', async (req, res) => {
 
+  try {
+    res.render('home-page', {});
+
+
+  } catch (err) {
+    console.log(err);
+    res.status(500).json(err);
+  }
 });
 
 // GET one post
