@@ -14,11 +14,6 @@ router.get('/', async (req, res) => {
   }
 });
 
-// GET one post
-router.get('/gallery/:id', async (req, res) => {
- 
-
-});
 
 // Login route
 router.get('/login', (req, res) => {
