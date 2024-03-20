@@ -23,7 +23,16 @@ router.get('/login', (req, res) => {
     return;
   }
   // Otherwise, render the 'login' template
-  res.render('login');
+  res.render('login', { isLogInPage: true });
+});
+
+// signup route 
+router.get('/signup', async (req, res) => {
+  try {
+    res.render('signup', { isLogInPage: true });
+  } catch (err) {
+    res.status(500).json(err);
+  }
 });
 
 module.exports = router;
