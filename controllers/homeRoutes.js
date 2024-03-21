@@ -1,13 +1,29 @@
 const router = require('express').Router();
-const { User, Post } = require('../models');
+const Post = require('../models/Post');
 
-// GET all posts
+
+
+//home route 
 router.get('/', async (req, res) => {
+  try {
+    res.render('home-page', {} )
+  } catch (err) {
+    console.log(err);
+    res.status(500).json(err);
+  }
+});
+
+
+
+// GET all content
+router.get('/content', async (req, res) => {
 
   try {
-    res.render('home-page', {});
 
-
+    const dbPostData = await Post.findAll();
+    const postData = dbPostData.map((post) => post.get({ plain: true }))
+    // console.log(postData);
+    res.render('content', { postData });
   } catch (err) {
     console.log(err);
     res.status(500).json(err);
@@ -29,7 +45,7 @@ router.get('/login', (req, res) => {
 // signup route 
 router.get('/signup', async (req, res) => {
   try {
-    res.render('signup', { isLogInPage: true });
+    res.render('signup', {});
   } catch (err) {
     res.status(500).json(err);
   }

@@ -14,21 +14,21 @@ Post.init({
         type: DataTypes.STRING,
         allowNull: false,
     },
-    body: {
+    desc: {
         type: DataTypes.STRING,
         allowNull: false, 
     },
     url: {
         type: DataTypes.STRING,
         allowNull: true,
-    }
+    },
     },
 {
     sequelize,
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'user',
+    modelName: 'post',
   }
   );
 
