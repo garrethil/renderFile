@@ -3,7 +3,9 @@
     border-radius: 6px;
 }
 
-
+.navbar-toggler {
+    color: #0D1020;
+}
 
 .navbar {
     background-color: #AAAAAA;
@@ -64,6 +66,27 @@
 #sidebar,
 .main-text {
     text-align: center;
+}
+
+/* Old school default submit button style */
+.old-school-button {
+    background-color: #f0f0f0; /* Light gray background */
+    border: 1px solid #000; /* Black border */
+    color: #000; /* Black text color */
+    padding: 10px 20px; /* Padding */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold font weight */
+    cursor: pointer; /* Cursor style */
+    text-transform: uppercase; /* Uppercase text */
+    text-align: center; /* Center text */
+    display: inline-block; /* Make it inline-block to adjust width */
+    text-decoration: none; /* Remove default link underline */
+    margin-top: 20px; /* Add some top margin */
+}
+
+/* Hover effect */
+.old-school-button:hover {
+    background-color: #ccc; /* Darken the background color on hover */
 }
 
   
