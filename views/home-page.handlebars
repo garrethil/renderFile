@@ -12,6 +12,25 @@
 
     <div class="main-text col-md-9 justify-content-center py-5 font-normal">
         <h2>Up Coming</h2>
-        <p>This is the main content of the home page.</p>
+<table class="table table-striped">
+            <thead>
+                <tr>
+                    <th class="underline">Game</th>
+                    <th class="underline">Location</th>
+                    <th class="underline">Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Add your table rows here -->
+                {{#each eventData as |event|}}
+                <tr>
+                    <td>{{event.game}}</td>
+                    <td>{{event.location}}</td>
+                    <td>{{event.date}}</td>
+                </tr>
+                {{/each}}
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
     </div>
 </div>

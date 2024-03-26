@@ -1,5 +1,6 @@
 const router = require('express').Router();
 const Post = require('../models/Post');
+const Event = require('../models/Event');
 
 
 
@@ -7,9 +8,9 @@ const Post = require('../models/Post');
 router.get('/', async (req, res) => {
   try {
     const dbEventData = await Event.findAll();
-    const eventData = dbEventData.map((event) => post.get({ plain: true }));
+    const eventData = dbEventData.map((event) => event.get({ plain: true }));
 
-    res.render('home-page', {} )
+    res.render('home-page', { eventData });
   } catch (err) {
     console.log(err);
     res.status(500).json(err);
