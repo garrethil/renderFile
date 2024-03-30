@@ -1,6 +1,7 @@
 <!-- Handlebars Template -->
 {{#each postData as |post|}}
 <div class="card mb-3">
+  <a href="/content/{{post.id}}">
   <div class="row g-0">
     <!-- Left column for text content -->
     <div class="col-md-5 py-3 d-flex align-items-center">
@@ -16,5 +17,6 @@
       </div>
     </div>
   </div>
+  </a>
 </div>
 {{/each}}

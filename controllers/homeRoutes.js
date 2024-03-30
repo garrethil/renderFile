@@ -34,6 +34,22 @@ router.get('/content', async (req, res) => {
   }
 });
 
+//content detail page by id
+router.get('/content/:id', async (req, res) => {
+
+  try {
+    const dbContentData = await Post.findByPk(req.params.id);
+    const postData = dbContentData.get({ plain: true });
+    // Send over the 'loggedIn' session variable to the 'homepage' template
+    console.log(postData);
+    res.render('content-details', { postData });
+
+  } catch (err) {
+    console.log(err);
+    res.status(500).json(err);
+  }
+});
+
 // signup route 
 router.get('/signup', async (req, res) => {
   try {

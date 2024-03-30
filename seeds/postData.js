@@ -4,6 +4,7 @@ const postdata = [
   {
     title: 'hylics 2',
     desc: 'march 6 2024',
+    details: 'w/ carolina lopez - synth/voice, sam laramee - guitar, ben rositsan - woodwinds/synth, steven noronha - keys, josh sparks - samples, pt sandberg - bass, sierra weston - game',
     url: 'https://www.youtube.com/embed/iBNHARrP30I?si=COaSWK2LErYblQ7q',
   },
   {
@@ -50,6 +51,12 @@ const postdata = [
     title: 'sail forth',
     desc: 'dec 6 2023',
     url: 'https://www.youtube.com/embed/kvuOh63RXzw?si=xDZ4X-sveRZKtetB',
+  },
+  {
+    title: 'mirrors edge',
+    desc: 'march 20 2024',
+    details: 'w/ ben rositsan - saxophone, sam laramee - synth, josh sparks - drum programming, aidan mcconnell - drums, pt sandberg - bass, sierra weston - game',
+    url: 'https://www.youtube.com/embed/ApqI59Sp458?si=v7o8_wB2l7NOZzoq',
   },
 ];
 

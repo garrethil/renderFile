@@ -18,6 +18,10 @@ Post.init({
         type: DataTypes.STRING,
         allowNull: false, 
     },
+    details: {
+        type: DataTypes.STRING,
+        allowNull: true, 
+    },
     url: {
         type: DataTypes.STRING,
         allowNull: true,
