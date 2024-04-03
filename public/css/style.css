@@ -89,4 +89,27 @@
     background-color: #ccc; /* Darken the background color on hover */
 }
 
+.card {
+    border: 2px solid #007bff; /* Add a border around the card */
+    border-radius: 15px; /* Add some border-radius for smoother edges */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+  }
+
+  .card:hover {
+    transform: translateY(-5px); /* Add a slight lift effect on hover */
+  }
+
+  .card-title {
+    color: #007bff; /* Change the title color to blue */
+  }
+
+  .card-text {
+    color: #333; /* Change the text color to a darker shade */
+  }
+
+  .embed-responsive {
+    border-radius: 15px; /* Match the border-radius to the card */
+    overflow: hidden; /* Hide any overflowing content */
+  }
   
