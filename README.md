@@ -2,8 +2,8 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/topcowmoo/areca-vestiaria">
-    <img src="/file-black.svg" alt="Logo">
+  <a href="https://github.com/garrethil/renderFile">
+    <img src="./client/public/file-black.svg" alt="Renderfile Logo" height="150" width="150">
   </a>
 
 <h3 align="center"><a href="">Renderfile</a></h3>
@@ -12,7 +12,7 @@
 
 <br />
 <br />
-<a href="https://github.com/topcowmoo/areca-vestiaria"><strong>Explore the docs »</strong></a>
+<a href="https://github.com/garrethil/renderFile"><strong>Explore the docs »</strong></a>
 <br />
 <br />
 <a href="https://www.renderfile.com/">Deployed App on Heroku</a>
@@ -40,9 +40,6 @@
     <li>
       <a href="#contact">Contact</a>
     </li>
-    <li>
-      <a href="#acknowledgments">Acknowledgments</a>
-    </li>
   </ol>
 </details>
 
@@ -50,21 +47,17 @@
 
 ## About The Project
 
-<!-- A multi page MERN application with the client side deployed on Render and the server side deployed on MongoDB Atlas. This application uses MongoDB with Mongoose and GraphQL Apollo Server. Forms are handled by Formik and images are hosted on AWS S3 bucket.
+This project is a web application built with the MERN stack, designed to showcase the future events and past recordings of a musical artist. The app integrates with the YouTube Data API to fetch and display relevant content, allowing users to explore past performances and stay updated on upcoming shows.
 
-Login Page:
+To optimize performance, the app conditionally renders content, ensuring efficient loading by preventing unnecessary network requests. Additionally, the app includes an admin mode, enabling the artist or designated administrator to update and manage the schedule remotely with ease.
 
-![image](https://github.com/topcowmoo/areca-vestiaria/assets/149528212/8adabc44-3234-4d6f-a88d-38d02bdc85eb)
 
-Signup Page:
-
-![image](https://github.com/topcowmoo/areca-vestiaria/assets/149528212/39535e27-b477-49c0-b22e-381edf0522e9) -->
 
 <!-- BUILT WITH -->
 
 ## Built With
 
-[![My Skills](https://simpleskill.icons.workers.dev/svg?i=nodedotjs,react,vite,reactrouter,javascript,tailwindcss,HTML5,=50)](#)
+[![My Skills](https://simpleskill.icons.workers.dev/svg?i=javascript,react,nodedotjs,express,mongodb,youtube,tailwindcss)](#)
 
 
 ### Installation
@@ -111,16 +104,9 @@ Don't forget to give the project a star! Thanks again!
 
 - Garret Hildebrandt - [@github](https://github.com/garrethil) - garrethildebrandt@gmail.com
 
-<!-- Deployed Link: [https://baketomo.onrender.com/](https://baketomo.onrender.com/) -->
-
-Project Link: [https://github.com/topcowmoo/areca-vestiaria](https://github.com/topcowmoo/areca-vestiaria)
+Project Link: [https://www.renderfile.com/](https://www.renderfile.com/a)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
----
-
-![GitHub language stats](https://img.shields.io/github/languages/top/topcowmoo/areca-vestiaria)
-
-![Languages](https://img.shields.io/github/languages/count/topcowmoo/areca-vestiaria)
